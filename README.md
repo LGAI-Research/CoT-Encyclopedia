@@ -3,7 +3,7 @@ This is the official github repository for The CoT Encyclopedia: Analyzing, Pred
 Traditional methods use fixed criteria to identify strategies but offer limited guidance for improving reasoning. The CoT Encyclopedia takes a bottom-up approach, uncovering diverse, task-specific strategies and enabling flexible analysis and actionable insights to enhance model performance.
 
 ## Overview
-![cot_encyclopedia_overview](https://github.com/user-attachments/assets/70347f9d-edae-498e-b567-8e9e08ee23d7)
+![cot_encyclopedia_overview](overview.png)
 The framework constructs a taxonomy of reasoning strategies through five key stages: (1) Classification Criteria Identification – diverse reasoning criteria are identified from model-generated CoTs; (2) Classification Criteria Embedding – these criteria are converted into semantic embeddings; (3) Criteria Compression via Hierarchical Clustering – semantically similar criteria are clustered to form distinct representative categories; (4) Rubric Generation – contrastive rubrics are created to describe and distinguish opposing reasoning patterns within each criterion; (5) Analysis Report Generation – model responses are classified using the rubrics, producing comprehensive reports that interpret their reasoning behaviors. The framework also supports practical use cases such as reasoning pattern analysis and optimal strategy control for performance improvement.
 
 ## Setup
